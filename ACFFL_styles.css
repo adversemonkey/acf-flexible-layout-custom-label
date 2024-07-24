@@ -1,0 +1,45 @@
+#acf-group_66a0aae6b9220 {
+    display: none !important;
+}
+
+.acf-flexible-content-label {
+    position: absolute;
+    top: 5px;
+    left: 37px;
+}
+
+.acf-flexible-content-label span,
+.acf-flexible-content-label input {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 0 8px !important;
+    height: 27px;
+    line-height: 27px !important;
+    z-index: 1;
+    font-size: 14px !important;
+    font-weight: 700;
+    border: none;
+    min-height: 0;
+}
+
+.acf-flexible-content-label span {
+    display: block;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.acf-flexible-content-label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    transition: all 0.3s;
+}
+
+.acf-flexible-content-label input:focus {
+    width: 300px;
+}
+
+.acf-flexible-content .layout .acf-fc-layout-handle {
+    color: rgba(0, 0, 0, 0);
+}
