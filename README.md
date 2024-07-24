@@ -1,2 +1,2 @@
 # acf-flexible-layout-custom-label
-Adding custom label to flexible ACF layout
+Wordpress Plugin to add custom label to flexible ACF layout
